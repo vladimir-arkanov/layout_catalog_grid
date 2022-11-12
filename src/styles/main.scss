@@ -1,14 +1,7 @@
-html {
-  font-family: Roboto, sans-serif;
-}
+@import "./utiles/variables";
+@import "./utiles/mixins.scss";
 
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
+@import "./normilize.scss";
+@import "./reset.scss";
 @import "_header.scss";
 @import "_catalog.scss";
